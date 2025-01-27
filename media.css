@@ -1,0 +1,498 @@
+@media screen and (max-width: 1249px) {
+    .w-1250 {
+        width: 960px;
+    }
+
+    /*---------------------------HEADER----------------------------*/
+    header.flex-center {
+        height: 60px;
+    }
+
+    header .w-1250 {
+        justify-content: space-between;
+        gap: normal;
+    }
+
+    /*----------LOGO-----------*/
+    header .logo {
+        margin-top: 14px;
+    }
+
+    header .logo h3 {
+        height: 32px;
+        font-size: 30px;
+    }
+
+    header .logo h3 span {
+        font-size: 14px;
+    }
+
+    /*----------NAVIGATE-----------*/
+    header nav {
+        margin-top: 10px;
+        gap: 32px;
+    }
+
+    header nav ul {
+        gap: 32px;
+    }
+
+    header nav ul li a {
+        font-size: 16px;
+    }
+
+    header nav ul li:nth-child(4) a {
+        gap: 10px;
+    }
+
+    header nav button {
+        width: auto;
+    }
+
+    header nav button span {
+        font-size: 16px;
+    }
+
+    /*-------------------------MAIN------------------------------*/
+    main.title img {
+        display: none;
+    }
+
+    /*---------------------BROWSE THE CATEGORY--------------------*/
+    /*-------------CATEGORY LIST-----------*/
+    section.category-list ul li:nth-child(1) {
+        display: none;
+    }
+
+    /*------------------------ARTICLES BLOCKS----------------------*/
+    /*-----------------CARD---------------*/
+    section.articles-blocks article ul li.card:nth-child(4) {
+        display: none;
+    }
+
+    /*-----------------------------FOOTER--------------------------*/
+    footer .content {
+        justify-content: space-between;
+        gap: normal;
+    }
+
+    footer .content .title h3 {
+        font-size: 24px;
+    }
+
+    footer .content .title h3 span {
+        font-size: 18px;
+    }
+
+    footer .content .title p {
+        font-size: 14px;
+    }
+
+    footer .content .title ul {
+        width: auto;
+        justify-content: start;
+        gap: 12px;
+    }
+
+    footer .content .title ul li svg {
+        width: 20px;
+    }
+
+    footer .content nav {
+        gap: 50px;
+    }
+
+    footer .content nav div {
+        gap: 20px;
+    }
+
+    footer .content nav div h4 {
+        font-size: 14px;
+    }
+
+    footer .content nav div ul {
+        gap: 12px;
+    }
+
+    footer .content nav div ul a {
+        font-size: 12px;
+    }
+}
+
+@media screen and (max-width: 980px) {
+    .w-1250 {
+        width: 740px;
+    }
+
+    /*----------------------FORM AT PAGE---------------------*/
+    input {
+        width: 240px;
+        height: 40px;
+        padding: 10px 12px;
+
+        font-size: 18px;
+    }
+
+    form button {
+        width: 120px;
+        height: 40px;
+        padding: 8px 12px;
+
+        font-size: 18px;
+    }
+
+    /*-------------------------HEADER-------------------------*/
+    /*----------NAVIGATE-----------*/
+    header nav button span {
+        display: none;
+    }
+
+    /*------------------------MAIN----------------------------*/
+    main.title {
+        padding: 120px 0 140px;
+    }
+
+    main.title .content h1 {
+        width: 420px;
+        font-size: 48px;
+    }
+
+    main.title .content p {
+        width: 420px;
+        font-size: 12px;
+    }
+
+    main.title img {
+        display: block;
+        width: 280px;
+        height: auto;
+    }
+
+    /*----------------------BROWSE THE CATEGORY------------------*/
+    /*-------------CATEGORY LIST-----------*/
+    section.category-list ul li:nth-child(3) {
+        display: none;
+    }
+
+    /*----------------------ARTICLES BLOCKS------------------------*/
+    /*-----------------CARD---------------*/
+    section.articles-blocks article ul li.card:nth-child(3) {
+        display: none;
+    }
+
+    /*-------------------------SUBSCRIBE FORM--------------------*/
+    section.subscribe-form .content {
+        gap: 30px;
+    }
+
+    section.subscribe-form .content .mailbox-icon {
+        display: none;
+    }
+
+    section.subscribe-form .content .title h2 {
+        font-size: 26px;
+    }
+
+    section.subscribe-form .content .title p {
+        font-size: 16px;
+    }
+
+    /*--------------------------FOOTER------------------------*/
+    footer .content .title p {
+        font-size: 12px;
+    }
+
+    footer .content nav {
+        gap: 36px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .w-1250 {
+        width: 420px;
+    }
+
+    header nav ul.full-screen {
+        display: none;
+    }
+
+    /*--BURGER CONTAINER-SHOWN AT MAX-WIDTH 768px--*/
+    header nav .burger-container {
+        display: block;
+        position: relative;
+    }
+
+    /*--------------------------MAIN-------------------------*/
+    main.title img {
+        display: none;
+    }
+
+    /*--------------------BROWSE THE CATEGORY------------------*/
+    /*----------------TITLE------------*/
+    section.category-list .title h3 {
+        font-size: 16px;
+    }
+
+    section.category-list .title a span {
+        font-size: 14px;
+    }
+
+    section.category-list .title a svg {
+        height: 12px;
+    }
+
+    /*-------------CATEGORY LIST-----------*/
+    section.category-list ul {
+        gap: 37px;
+    }
+
+    section.category-list ul li {
+        gap: 30px;
+        width: 200px;
+        height: 250px;
+    }
+
+    section.category-list ul li:nth-child(2) {
+        display: none;
+    }
+
+    /*----------------------ARTICLES BLOCKS-------------------*/
+    /*-------------TITLE-----------*/
+    section.articles-blocks article .title h4 {
+        font-size: 16px;
+    }
+
+    section.articles-blocks article .title a span {
+        font-size: 14px;
+    }
+
+    section.articles-blocks article .title a svg {
+        height: 12px;
+    }
+
+    /*-----------------CARD---------------*/
+    section.articles-blocks article ul li.card {
+        width: 200px;
+        height: 280px;
+        padding: 10px;
+    }
+
+    section.articles-blocks article ul li.card .title img {
+        width: auto;
+        height: auto;
+    }
+
+    section.articles-blocks article ul li.card .title h3 {
+        font-size: 14px;
+    }
+
+    section.articles-blocks article ul li.card .user-info img {
+        width: 28px;
+        height: 28px;
+    }
+
+    section.articles-blocks article ul li.card .user-info h5 {
+        font-size: 12px;
+    }
+
+    section.articles-blocks article ul li.card .user-info h6 {
+        gap: 10px;
+        font-size: 10px;
+    }
+
+    section.articles-blocks article ul li.card .user-info h6 span.time-dot {
+        width: 2px;
+        height: 2px;
+    }
+
+    /*---------MORE ARTICLE BUTTON-------*/
+    section.articles-blocks button {
+        padding: 10px 12px 10px;
+        font-size: 16px;
+    }
+
+    /*---------------------SUBSCRIBE FORM--------------------*/
+    section.subscribe-form .content {
+        gap: 25px;
+    }
+
+    section.subscribe-form .content .title h2 {
+        font-size: 23px;
+    }
+
+    section.subscribe-form .content .title p {
+        font-size: 13px;
+    }
+
+    /*-------------------------FOOTER----------------------*/
+    footer .content .title {
+        gap: 12px;
+    }
+
+    footer .content .title h3 {
+        font-size: 16px;
+    }
+
+    footer .content .title h3 span {
+        font-size: 12px;
+    }
+
+    footer .content .title p {
+        font-size: 10px;
+    }
+
+    footer .content .title ul {
+        gap: 12px;
+    }
+
+    footer .content nav {
+        gap: 32px;
+    }
+
+    footer .content nav div {
+        gap: 12px;
+    }
+
+    footer .content nav div h4 {
+        font-size: 14px;
+    }
+
+    footer .content nav div ul {
+        gap: 8px;
+    }
+
+    footer .content nav div ul a {
+        font-size: 10px;
+    }
+
+    footer .content nav div:nth-child(2n) {
+        display: none;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .w-1250 {
+        width: 350px;
+    }
+
+    /*--------------------FORM AT PAGE-------------------*/
+    input {
+        width: 220px;
+        height: 40px;
+        padding: 10px 12px;
+
+        font-size: 18px;
+    }
+
+    form button {
+        width: 100px;
+        height: 40px;
+        padding: 8px 12px;
+
+        font-size: 16px;
+    }
+
+    /*-----------------------MAIN----------------------*/
+    main.title {
+        padding: 80px 0 100px;
+    }
+
+    main.title .content h1 {
+        width: 340px;
+        font-size: 36px;
+    }
+
+    main.title .content p {
+        width: 340px;
+        font-size: 10px;
+    }
+
+    /*---------------------BROWSE THE CATEGORY--------------*/
+    /*-------------CATEGORY LIST-----------*/
+    section.category-list ul {
+        gap: 30px;
+    }
+
+    section.category-list ul li {
+        padding: 40px 15px;
+        width: 200px;
+        height: 220px;
+    }
+
+    section.category-list ul li h3 {
+        font-size: 18px;
+    }
+
+    /*-------------------ARTICLES BLOCKS----------------------*/
+    /*-----------------CARD---------------*/
+    section.articles-blocks article ul li.card {
+        width: 168px;
+        height: 240px;
+    }
+
+    section.articles-blocks article ul li.card .title {
+        gap: 16px;
+    }
+
+    section.articles-blocks article ul li.card .title h3 {
+        font-size: 14px;
+    }
+
+    section.articles-blocks article ul li.card .user-info h5 {
+        font-size: 10px;
+    }
+
+    section.articles-blocks article ul li.card .user-info h6 {
+        gap: 8px;
+        font-size: 8px;
+    }
+
+    /*----------------------SUBSCRIBE FORM--------------------*/
+    section.subscribe-form .content .title h2 {
+        font-size: 20px;
+    }
+
+    section.subscribe-form .content .title p {
+        font-size: 11px;
+    }
+
+    /*-----------------------FOOTER----------------------*/
+    footer .content {
+        position: relative;
+    }
+
+    footer .content .title h3 {
+        font-size: 16px;
+    }
+
+    footer .content .title h3 span {
+        font-size: 12px;
+    }
+
+    footer .content .title p {
+        font-size: 10px;
+    }
+
+    footer .content .title ul {
+        gap: 12px;
+    }
+
+    footer .content nav {
+        /*position: relative;*/
+        gap: 32px;
+    }
+
+    footer .content nav div {
+        gap: 12px;
+    }
+
+    footer .content nav div:nth-child(3) {
+        position: absolute;
+        left: 0;
+        bottom: 0;
+    }
+
+    footer .content nav div:nth-child(3) h4 {
+        display: none;
+    }
+}
