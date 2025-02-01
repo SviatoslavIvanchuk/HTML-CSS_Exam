@@ -50,6 +50,7 @@ button, span, a, h1, h2, h3, h4, h5, h6, p {
     line-height: normal;
     color: #2B2C34;
     text-transform: capitalize;
+    font-weight: 700;
 }
 
 /*----------------------FORM AT PAGE---------------------*/
@@ -89,7 +90,6 @@ form button {
 
     color: #FFFFFE;
     font-size: 20px;
-    font-weight: 700;
 }
 
 /*--------------------------------HEADER-------------------------------------*/
@@ -124,7 +124,6 @@ header .logo h3 span {
     display: inline-block;
     color: #6246EA;
     font-size: 18px;
-    font-weight: 700;
 }
 
 /*----------NAVIGATE-----------*/
@@ -139,7 +138,6 @@ header nav ul {
 
 header nav ul li a {
     font-size: 20px;
-    font-weight: 700;
 }
 
 header nav ul li:nth-child(4) a {
@@ -157,7 +155,6 @@ header nav button {
 header nav button span {
     color: #FFFFFE;
     font-size: 18px;
-    font-weight: 700;
 }
 
 /*--------------------------------MAIN-------------------------------------*/
@@ -178,7 +175,6 @@ main.title .content {
 main.title .content h1 {
     width: 617px;
     font-size: 64px;
-    font-weight: 700;
 }
 
 main.title .content p {
@@ -216,7 +212,6 @@ section.category-list .title {
 section.category-list .title h3 {
     margin-left: 2px;
     font-size: 24px;
-    font-weight: 700;
 }
 
 section.category-list .title a {
@@ -226,7 +221,6 @@ section.category-list .title a {
 
 section.category-list .title a span {
     font-size: 20px;
-    font-weight: 700;
 }
 
 section.category-list .title a svg {
@@ -259,7 +253,6 @@ section.category-list ul li .icon {
 
 section.category-list ul li h3 {
     font-size: 24px;
-    font-weight: 700;
     transition: 0.3s;
 }
 
@@ -293,7 +286,6 @@ section.articles-blocks article .title {
 
 section.articles-blocks article .title h4 {
     font-size: 24px;
-    font-weight: 700;
 }
 
 section.articles-blocks article .title a {
@@ -303,7 +295,6 @@ section.articles-blocks article .title a {
 
 section.articles-blocks article .title a span {
     font-size: 20px;
-    font-weight: 700;
 }
 
 section.articles-blocks article .title a svg {
@@ -343,7 +334,6 @@ section.articles-blocks article ul li.card .title img {
 
 section.articles-blocks article ul li.card .title h3 {
     font-size: 20px;
-    font-weight: 700;
 }
 
 section.articles-blocks article ul li.card .user-info {
@@ -390,7 +380,6 @@ section.articles-blocks button {
 
     color: #FFFFFE;
     font-size: 20px;
-    font-weight: 700;
 }
 
 /*-----------------------------SUBSCRIBE FORM--------------------------*/
@@ -418,7 +407,6 @@ section.subscribe-form .content .title {
 
 section.subscribe-form .content .title h2 {
     font-size: 36px;
-    font-weight: 700;
 }
 
 section.subscribe-form .content .title p {
@@ -456,7 +444,7 @@ footer .content .title h3 span {
     display: inline-block;
     color: #6246EA;
     font-size: 18px;
-    font-weight: 700;
+
 }
 
 footer .content .title p {
@@ -480,7 +468,6 @@ footer .content nav div {
 
 footer .content nav div h4 {
     font-size: 20px;
-    font-weight: 700;
     text-transform: uppercase;
 }
 
